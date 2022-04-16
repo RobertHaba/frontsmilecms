@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_technology_technologies",
+  "info": {
+    "displayName": "technology",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.icon"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "smile_counters",
+  "info": {
+    "singularName": "smile-counter",
+    "pluralName": "smile-counters",
+    "displayName": "SmileCounter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}
