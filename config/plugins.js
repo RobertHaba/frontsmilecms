@@ -8,10 +8,6 @@ module.exports = ({ env }) => ({
         api_key: env("CLOUDINARY_KEY"),
         api_secret: env("CLOUDINARY_SECRET"),
       },
-      actionOptions: {
-        upload: {},
-        delete: {},
-      },
     },
   },
   email: {
@@ -19,9 +15,6 @@ module.exports = ({ env }) => ({
       provider: "sendgrid",
       providerOptions: {
         apiKey: env("SENDGRID_API_KEY"),
-        localServer: {
-          maxage: 300000,
-        },
       },
       settings: {
         defaultFrom: "robertfrontend@gmail.com",
