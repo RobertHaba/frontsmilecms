@@ -31,11 +31,20 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "pid": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "linkDesign": {
+      "type": "string"
     }
   }
 }
